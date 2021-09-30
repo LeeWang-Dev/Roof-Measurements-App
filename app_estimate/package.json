@@ -1,0 +1,79 @@
+{
+  "name": "react-roof-measurements-app",
+  "homepage": "https://app.x-scope.net",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "@turf/turf": "^6.2.0",
+    "axios": "^0.21.1",
+    "bignumber.js": "^9.0.1",
+    "clsx": "^1.1.1",
+    "html2canvas": "^1.0.0-rc.7",
+    "javascript-time-ago": "^2.3.8",
+    "jspdf": "^2.3.1",
+    "jspdf-autotable": "^3.5.15",
+    "material-ui-color": "^1.2.0",
+    "material-ui-phone-number": "^2.2.6",
+    "numeral": "^2.0.6",
+    "react": "^16.14.0",
+    "react-csv": "^2.0.3",
+    "react-dom": "^16.14.0",
+    "react-images": "^1.2.0-beta.7",
+    "react-map-gl": "^6.1.11",
+    "react-material-ui-form-validator": "^2.1.4",
+    "react-number-format": "^4.6.3",
+    "react-pdf": "^5.3.2",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-text-mask": "^5.4.3",
+    "react-time-ago": "^6.2.4",
+    "react-window": "^1.8.6",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.5",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4",
+    "worker-loader": "^3.0.8"
+  },
+  "scripts": {
+    "start": "react-scripts --max_old_space_size=4096 start",
+    "build": "react-scripts --max_old_space_size=4096 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "import/no-webpack-loader-syntax": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/javascript-time-ago": "^2.0.3",
+    "@types/numeral": "^2.0.1",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/recompose": "^0.30.8",
+    "@types/uuid": "^8.3.1"
+  }
+}

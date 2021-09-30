@@ -1,0 +1,5 @@
+public/images/meaurement-id/image files
+
+There are directories with measurement id in public/images.
+
+There are image files in measurement id directory. 
